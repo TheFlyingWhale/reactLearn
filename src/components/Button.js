@@ -2,7 +2,6 @@ import React from 'react'
 
 export class Button extends React.Component {
     render() {
-        let title = 'Actions'
         return (
             <div>
                 <button 

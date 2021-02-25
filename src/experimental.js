@@ -6,6 +6,8 @@ import { Button } from './components/Button'
 import { Mood } from './components/Mood'
 import { Props } from './components/Props'
 import { State } from './components/State'
+import { ChangeView } from './components/ChangeView'
+import { ChildChangeParent } from './components/ChildChangeParent'
 
 export class Main extends React.Component {
     handleClick() {
@@ -25,6 +27,8 @@ export class Main extends React.Component {
                     <Mood />
                     <Props first="hello" secound="secound"/>
                     <State />
+                    <ChangeView />
+                    <ChildChangeParent />
                 </header>
             </div>
         )
